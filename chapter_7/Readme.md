@@ -16,7 +16,8 @@ chapter_7/ex7_1.rb:2:33: W: Literal interpolation detected.
 puts "Its fleece was white as #{'snow'}."
                                 ^^^^^^
 
->
+> I fixed this by not using interpolation for snow,
+and change them to single quote.
 
 chapter_7/ex7_1.rb:3:6: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 puts "And everywhere that Mary went."
