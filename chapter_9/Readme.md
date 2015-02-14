@@ -32,6 +32,6 @@ Check your work, write down your mistakes, try not to make them on the next exer
 Extra Credit:
 Q) What does \n do within double quotes?
 
-\n within double quotes going to next line.
+\n within double quotes open a new line.
 
 Add your answer to Readme.md
