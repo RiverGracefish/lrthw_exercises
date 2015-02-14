@@ -117,3 +117,8 @@ Q) Do you like string interpolation or format strings? Why?
 > I like string interpolation better then format strings because it's more understandable for me.
 
 Add the answer to this question into Readme.md.
+
+Study Drills
+Do your checks, write down your mistakes, and try not to make the same mistakes on the next exercise.
+
+> Yes.
