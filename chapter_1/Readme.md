@@ -36,3 +36,22 @@ puts 'I "said" do not touch this.'
 > I fix it by enter to open line 8
 
 1 file inspected, 6 offenses detected
+
+Study Drills
+The Study Drills contain things you should try to do.
+If you can't, skip it and come back later.
+
+For this exercise, try these things:
+
+Make your script print another line.
+
+> Okay.
+
+Make your script print only one of the lines.
+
+> '#' the rest of those lines don't need to print out.
+
+Put a # (octothorpe) character at the beginning of a line.
+What did it do? Try to find out what this character does.
+
+> Comment out. Tell Ruby to ignored that.
