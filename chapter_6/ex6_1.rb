@@ -1,4 +1,4 @@
-# assign variable types_of_people to number 10 object.
+# assign variable types_of_people to integer number 10.
 types_of_people = 10
 # assign variable x to object "There are #{type_of_people} types of people."
 x = "There are #{types_of_people} types of people."
