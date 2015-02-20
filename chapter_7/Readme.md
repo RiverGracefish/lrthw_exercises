@@ -125,3 +125,17 @@ When you go to the next exercise, look at the mistakes you have made and try not
 Remember that everyone makes mistakes.
 Programmers are like magicians who fool everyone into thinking they are perfect and never wrong, but it's all an act.
 They make mistakes all the time.
+
+Q) Please explain the difference between puts and print in your own words in the Readme.md by Wendy.
+hint: is has to do with what line you end up on
+
+> "puts" is probably the most common printing methods in Ruby,
+but it also automatically moves the output to the next line.
+However, "print" continue print out string at the same line.
+When I play with print vs puts in irb, the following is the out put:
+
+>* 2.1.5 :002 > print
+>*  => nil
+>* 2.1.5 :003 > puts
+>*
+>*  => nil

@@ -33,7 +33,7 @@ end11 = 'e'
 end12 = 'r'
 
 # watch that print vs. puts on this line what's it do?
-# print out end1 + end2 + end3 + end4 + end5 + end6
+# print out variables end1 + end2 + end3 + end4 + end5 + end6
 print end1 + end2 + end3 + end4 + end5 + end6
-# print out end7 + end8 + end9 + end10 + end11 + end12
+# print out variables end7 + end8 + end9 + end10 + end11 + end12
 puts end7 + end8 + end9 + end10 + end11 + end12
