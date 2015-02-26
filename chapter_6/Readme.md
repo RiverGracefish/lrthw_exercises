@@ -28,10 +28,10 @@ Go through this program and write a comment above each line explaining it.
 Find all the places where a string is put inside a string.
 There are four places.
 
-> 1. x = "There are #{types_of_people} types of people."
-2. and 3. y = "Those who know #{binary} and those who #{do_not}."
+>1. and 2. y = "Those who know #{binary} and those who #{do_not}."
 This one have string binary and string do_not inside of the big string.
-4. joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
+3. puts "I said: #{x}." String x inside of the string I said: #{x}.
+4. puts "I also said: '#{y}'." String y inside of the string I also said: '#{y}'.
 
 Are you sure there are only four places?
 How do you know? Maybe I like lying.
