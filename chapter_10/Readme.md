@@ -37,6 +37,12 @@ Study Drills:
 2) Explain the difference between these two in the Readme.md
 
 > What is these two? I need this to be able to answer this question.
+Wendy: referring to study drill #2
+       What is the difference between using triple single quotes
+       and double triple quotes or
+       why would you one over the other?
+       hint: one reason involves how they handle escape sequences.
+
 
 3) Add these escape sequences to your ex10.rb file.
 

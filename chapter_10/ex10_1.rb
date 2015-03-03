@@ -24,3 +24,11 @@ puts persian_cat
 puts backslash_cat
 # print out fat_cat
 puts fat_cat
+
+# Wendy want me to write my own example
+# using escape sequences to see the output.
+my_example =
+    "Wendy want me to write my own example \n\tusing escape sequences"\
+     'to see the output.'
+
+puts my_example
