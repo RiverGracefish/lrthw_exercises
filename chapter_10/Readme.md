@@ -42,6 +42,35 @@ Wendy: referring to study drill #2
        and double triple quotes or
        why would you one over the other?
        hint: one reason involves how they handle escape sequences.
+> Graces-MacBook-Pro:homework_assignments RiverGracefish$ irb
+  2.1.2 :001 > foo = 5
+   => 5
+  2.1.2 :002 > '''The number is #{foo}'''
+   => "The number is \#{foo}"
+  2.1.2 :003 > """The number is #{foo}"""
+   => "The number is 5"
+  2.1.2 :004 > '''The number is '#{foo}''''
+   => "The number is "
+  2.1.2 :005 > """The number is '#{foo}'"""
+   => "The number is '5'"
+  2.1.2 :006 >
+I think triple single quote only print out what we wrote,
+however, it will escape the string inside of single quote part in the whole single quote string.
+Which I don't understand the different in between triple single quote and a single quote
+Graces-MacBook-Pro:lrthw_exercises RiverGracefish$ irb
+2.1.5 :001 > 'The number is '#{foo}''
+ => "The number is "
+2.1.5 :002 > '''The number is '#{foo}''''
+ => "The number is "
+2.1.5 :003 >
+Double triple quote will pull out the string from the variable,
+which I don't see any different of double triple quote and a double quote neither
+2.1.5 :004 > foo = 5
+ => 5
+2.1.5 :005 > """The number is '#{foo}'"""
+ => "The number is '5'"
+2.1.5 :006 > "The number is '#{foo}'"
+ => "The number is '5'"
 
 
 3) Add these escape sequences to your ex10.rb file.
